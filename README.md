@@ -22,10 +22,12 @@ Possible to complete names with `<tab>`
 
 ## Configuration
 
-Set `g:perldoc_split_modifier` to specify modifier of new/split method like below.
-
 ```vim
+" Specify modifier of new/split method
 let g:perldoc_split_modifier = '10v'
+
+" Specify split positioning
+let g:perldoc_split_position = 'rightbelow'
 ```
 
 ## Keymap
